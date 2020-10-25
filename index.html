@@ -14,43 +14,54 @@
 
 <body>
     <!-- Skip to main content link -->
-    <a href="#maincontent" class="skip-link">Skip to main content.</a>
-    <!-- header begins -->
+    <a href="#main-content" class="skip-link">Skip to main content.</a>
+
+    <!-- header begins  -->
     <header>
-        <div class="wrapper">
+        <!-- header wrapper begins -->
+        <div class="wrapper">  
             <!-- navigation bar begins -->
-            <nav class="headerNav">
+            <nav class="header-nav">
                 <div class="table">
+                    <!-- hamburger menu for smaller screen-->
                     <label for="toggle"><i class="fa fa-bars"></i></label>
                     <input type="checkbox" id="toggle" for="toggle"></i></input>
-                    <ul class="slideOut-menu clearfix">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <!-- horizontal menu for larger screen-->
+                    <ul class="slide-out-menu clearfix">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
             <!-- navigation bar ends -->
 
             <!-- main title & social media links -->
-            <div class="mainTitle clearfix">
-                <h1 class="cursive fontColour">Bikerland</h1>
-
+            <div class="main-title clearfix">
+                <h1 class="cursive font-colour">Bikerland</h1>
                 <!-- social media links begins -->
                 <aside>
                     <ul class="media-links">
                         <li>
-                            <a href="#"><i class="fab fa-instagram fontColour"></i></a>
+                            <a href="#"><i class="fab fa-instagram font-colour"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-facebook-f fontColour"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f font-colour"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-snapchat-ghost fontColour"></i></a>
+                            <a href="#"><i class="fab fa-snapchat-ghost font-colour"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-twitter fontColour"></i></a>
+                            <a href="#"><i class="fab fa-twitter font-colour"></i></a>
                         </li>
                     </ul>
                 </aside>
@@ -62,86 +73,76 @@
     <!-- header ends -->
 
     <!-- main part of website begins -->
-    <main>
+    <main id="main-content">
         <!-- about section begins -->
-        <section class="aboutSection clearfix" id="maincontent">
+        <section class="about-section clearfix" id="about">
             <div class="img">
                 <img src="biker-land-assets/image-2.jpg" alt="Black and white close up of cyclist's foot on a bicycle pedal">
             </div>
             <div class="text">
                 <h2 class="cursive">About us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum
-                    eleifend.Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis
-                    dapibus. Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
-
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend.Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
                 <!-- read more button -->
-                <button class="btn fontColour"><a href="#">Read More</a></button>
+                <button class="btn font-colour"><a href="#">Read More</a></button>
             </div>
         </section>
         <!-- about section ends -->
 
-        <section class="missionSection clearfix">
+        <!-- mission section begins -->
+        <section class="mission-section clearfix">
             <div class="img">
                 <img src="biker-land-assets/image-7.jpg"
                     alt="Black bicycle leaning against the black rail of a steele fence">
             </div>
             <div class="text">
                 <h2 class="cursive">Our Mission</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend.
-                    Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus.
-                    Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
-
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
                 <!-- read more button -->
-                <button class="btn fontColour""><a href=" #">Read More</a></button>
+                <button class="btn font-colour""><a href=" #">Read More</a></button>
             </div>
         </section>
         <!-- mission section ends -->
 
         <!-- meet cyclist section begins -->
-        <section class="meetSection">
+        <section class="meet-section">
+            <!-- wrapper container begins -->
             <div class="wrapper clearfix">
                 <figure>
-                    <img src="biker-land-assets/image-6.jpg"
-                        alt="Woman wearing a red jacket, backpack and bike helmet riding a bicycle down a street">
+                    <img src="biker-land-assets/image-6.jpg" alt="Alissa in action riding her bicycle down a street; wearing a red jacket and bike helmet">
                 </figure>
-                <div class="meetText">
+                <div class="meet-text">
                     <h2 class="cursive">Meet Alissa</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum
-                        eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis
-                        convallis dapibus nulla pulvinar tortor. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis
-                        pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor. Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lorem ipsum dolor
-                        sit amet, consectetur adipiscing elit.
-                        Nulla pulvinar tortor nulla elementum eleifend.</p>
-
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend.</p>
                     <!-- read more button -->
-                    <button class="btn fontColour"><a href="#">Read More</a></button>
+                    <button class="btn font-colour"><a href="#">Read More</a></button>
                 </div>
             </div>
+            <!-- wrapper container ends -->
         </section>
         <!-- meet cyclist section ends -->
 
         <!-- links to other pages begins -->
-        <section class="linksSection">
+        <section class="links-section">
+            <!-- wrapper container begins -->
             <div class="wrapper">
                 <div class="table">
                     <ul class="clearfix">
                         <li>
                             <a href="#"><i class="fas fa-bicycle"></i></a>
-                            <p class="fontColour">Products</p>
+                            <p class="font-colour">Products</p>
                         </li>
                         <li>
                             <a href="#"><i class="fas fa-users"></i></a>
-                            <p class="fontColour">Community</p>
+                            <p class="font-colour">Community</p>
                         </li>
                         <li>
                             <a href="#"><i class="fas fa-phone"></i></a>
-                            <p class="fontColour">Reach out</p>
+                            <p class="font-colour">Reach out</p>
                         </li>
                     </ul>
                 </div>
             </div>
+            <!-- wrapper container ends -->
         </section>
         <!-- links to other pages ends -->
 
@@ -158,8 +159,7 @@
                         <img src="biker-land-assets/image-3.jpg" alt="Professional Cyclist riding in a cycling race">
                     </li>
                     <li>
-                        <img src="biker-land-assets/image-4.jpg"
-                            alt="White bicycle with a basket in front leaning against a corrugated garage door">
+                        <img src="biker-land-assets/image-4.jpg" alt="White bicycle with a basket in front leaning against a corrugated garage door">
                     </li>
                 </ul>
             </div>
@@ -170,17 +170,25 @@
     <!-- main part of website ends -->
 
     <!-- footer begins -->
-    <footer class>
+    <footer id="contact">
         <!-- footer wrapper begins -->
         <div class="wrapper clearfix">
             <!-- footer nav begins -->
             <nav>
                 <div class="table">
                     <ul class="clearfix">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -188,7 +196,7 @@
 
             <!-- contact info begins -->
             <div class="contact">
-                <h3 class="fontColour cursive">Contact</h3>
+                <h3 class="font-colour cursive">Contact</h3>
                 <p>info@email.com | 123 - 456 - 7890</p>
                 <p class="middle">123 some road, Toronto, ON</p>
                 <p>A5A 5A5, Canada</p>
@@ -197,7 +205,7 @@
 
             <!-- contact form begins -->
             <form action="">
-                <h3 class="fontColour cursive">Stay updated</h3>
+                <h3 class="font-colour cursive">Stay updated</h3>
                 <label for="">Subscribe to our newsletter to stay updated.</label>
                 <input type="email" placeholder="email address">
                 <input type="submit" value="Subscribe">
