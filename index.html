@@ -13,14 +13,17 @@
 </head>
 
 <body>
+    <!-- Skip to main content link -->
+    <a href="#maincontent" class="skip-link">Skip to main content.</a>
     <!-- header begins -->
     <header>
         <div class="wrapper">
             <!-- navigation bar begins -->
-
             <nav class="headerNav">
                 <div class="table">
-                    <ul class="clearfix">
+                    <label for="toggle"><i class="fa fa-bars"></i></label>
+                    <input type="checkbox" id="toggle" for="toggle"></i></input>
+                    <ul class="slideOut-menu clearfix">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Blog</a></li>
@@ -36,7 +39,7 @@
 
                 <!-- social media links begins -->
                 <aside>
-                    <ul id="media-links">
+                    <ul class="media-links">
                         <li>
                             <a href="#"><i class="fab fa-instagram fontColour"></i></a>
                         </li>
@@ -61,29 +64,32 @@
     <!-- main part of website begins -->
     <main>
         <!-- about section begins -->
-        <section class="aboutSection wrapper1 clearfix">
+        <section class="aboutSection clearfix" id="maincontent">
+            <div class="img">
+                <img src="biker-land-assets/image-2.jpg" alt="Black and white close up of cyclist's foot on a bicycle pedal">
+            </div>
             <div class="text">
                 <h2 class="cursive">About us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend.Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum
+                    eleifend.Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis
+                    dapibus. Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
 
                 <!-- read more button -->
                 <button class="btn fontColour"><a href="#">Read More</a></button>
             </div>
-            <div class="img">
-                <img src="biker-land-assets/image-2.jpg"
-                    alt="Black and white close up of cyclist's foot on a bicycle pedal, wearing cyclist shoes">
-            </div>
         </section>
         <!-- about section ends -->
 
-        <section class="missionSection wrapper2 clearfix">
+        <section class="missionSection clearfix">
             <div class="img">
                 <img src="biker-land-assets/image-7.jpg"
                     alt="Black bicycle leaning against the black rail of a steele fence">
             </div>
             <div class="text">
                 <h2 class="cursive">Our Mission</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend.
+                    Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus.
+                    Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
 
                 <!-- read more button -->
                 <button class="btn fontColour""><a href=" #">Read More</a></button>
@@ -100,11 +106,13 @@
                 </figure>
                 <div class="meetText">
                     <h2 class="cursive">Meet Alissa</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum
+                        eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis
                         convallis dapibus nulla pulvinar tortor. Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis
                         pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor. Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lorem ipsum dolor
+                        sit amet, consectetur adipiscing elit.
                         Nulla pulvinar tortor nulla elementum eleifend.</p>
 
                     <!-- read more button -->
